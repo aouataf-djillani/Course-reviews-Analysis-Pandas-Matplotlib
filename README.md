@@ -4,6 +4,8 @@ This repository contains some scripts that help exploring a course review datase
 - Time series analysis: rating by period
 - Positive and negative reviews
 - What day of the week are people the happiest...etc 
+### Sample Visualization 
+The following Web app visualization is achieved using justpy. It represents the day of the week where people are the happiest. It is identified by the day the course receives the highest ratings 
 ![happist day](https://user-images.githubusercontent.com/54501663/167891683-b9a2bebe-2f69-4521-bdfd-eaa6d4d8aea3.png)
 
 
@@ -25,8 +27,9 @@ This repository contains some scripts that help exploring a course review datase
 | The Python Mega Course: Build 10 Real World Ap...	| 2021-04-02 05:11:03+00:00	4.0	| NaN |
 | The Python Mega Course: Build 10 Real World Ap...	| 2021-04-02 03:33:24+00:00	5.0	| NaN |
 | The Python Mega Course: Build 10 Real World Ap...	| 2021-04-02 03:31:49+00:00	4.5	| NaN |
+### Exploratory Analysis 
 
-# 1. Overview of the dataframe 
+#### 1. Overview of the dataframe 
 
 
 ```python
@@ -73,7 +76,7 @@ data.head
 
 
 
-## 2. Average rating of courses per day
+#### 2. Average rating of courses per day
 
 
 ```python
@@ -111,7 +114,7 @@ plt.plot(day_average.index, day_average['Rating'])
     
 
 
-# 3. Average rating of courses per week
+#### 3. Average rating of courses per week
 
 
 ```python
@@ -170,7 +173,7 @@ plt.plot(average_week.index, average_week["Rating"])
     
 
 
-# 4. Average rating per month 
+#### 4. Average rating per month 
 
 
 ```python
@@ -409,7 +412,7 @@ average_month_course.plot(figsize=(20,6))
     
 
 
-# 6. Day where people are happiest
+#### 6. Day where people are happiest
 
 
 ```python
