@@ -4,6 +4,8 @@ This repository contains some scripts that help exploring a course review datase
 - Time series analysis: rating by period
 - Positive and negative reviews
 - What day of the week are people the happiest...etc 
+![happist day](https://user-images.githubusercontent.com/54501663/167891683-b9a2bebe-2f69-4521-bdfd-eaa6d4d8aea3.png)
+
 
 ### Why Python? 
 - Libraries to access and analyse data like pandas
