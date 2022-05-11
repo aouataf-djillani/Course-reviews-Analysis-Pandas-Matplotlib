@@ -16,12 +16,13 @@ This repository contains some scripts that help exploring a course review datase
 ![alt text](http://url/to/img.png)
 
 
-Course Name	Timestamp	Rating	Comment
-0	The Python Mega Course: Build 10 Real World Ap...	2021-04-02 06:25:52+00:00	4.0	NaN
-1	The Python Mega Course: Build 10 Real World Ap...	2021-04-02 05:12:34+00:00	4.0	NaN
-2	The Python Mega Course: Build 10 Real World Ap...	2021-04-02 05:11:03+00:00	4.0	NaN
-3	The Python Mega Course: Build 10 Real World Ap...	2021-04-02 03:33:24+00:00	5.0	NaN
-4	The Python Mega Course: Build 10 Real World Ap...	2021-04-02 03:31:49+00:00	4.5	NaN
+|Course | Name |	Timestamp	| Rating |	Comment |
+|--|--|--|--|--|
+|The Python Mega Course: Build 10 Real World Ap...	| 2021-04-02 06:25:52+00:00	4.0|	NaN |
+ | The Python Mega Course: Build 10 Real World Ap... |	2021-04-02 05:12:34+00:00	4.0	| NaN |
+| The Python Mega Course: Build 10 Real World Ap...	| 2021-04-02 05:11:03+00:00	4.0	| NaN |
+| The Python Mega Course: Build 10 Real World Ap...	| 2021-04-02 03:33:24+00:00	5.0	| NaN |
+| The Python Mega Course: Build 10 Real World Ap...	| 2021-04-02 03:31:49+00:00	4.5	| NaN |
 
 ### Requirements
 
